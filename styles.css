@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #28a77d;
-    --secondary-color: #218488;
+    --primary-color: #0325bb;
+    --secondary-color: #232188;
     --background: #f8f9fa;
     --btn: #ff0000;
 }
@@ -31,7 +31,18 @@ body {
     position: sticky;
     top: 0;
     background: var(--secondary-color);
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    justify-content: center;
     z-index: 1000;
+}
+
+.cta-section1 {
+    display: flex;
+    position: sticky;
+    color: #fff;
+    top: 0;
+    background: var(--secondary-color);
     padding: 1rem;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     justify-content: center;
@@ -137,7 +148,7 @@ tr:hover {
 }
 
 .testimonial-card {
-    background: white;
+    background: rgb(240, 240, 240);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
